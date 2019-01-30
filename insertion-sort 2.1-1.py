@@ -16,16 +16,20 @@ Created on Wed Jan 16 06:06:16 2019
 #       i = i - 1
 #   A[i + 1] = key
 
-a = [31, 41, 59, 26, 41, 58]
 
-def insertionSort(a):
-    
-    for currentCard in a:
-        cardKey = currentCard[1]
-        arrayIndex = currentCard - 1
-        while arrayIndex > 0 and a[arrayIndex] > cardKey:
-            a[arrayIndex + 1] = a[arrayIndex]
-            arrayIndex =+ 1
-        a[arrayIndex + 1] = cardKey
 
-insertionSort(a)
+def insertionSort(theArray):
+       for arrayIndex in range(1,len(theArray)):
+        
+        currentArrayValue = theArray[arrayIndex]
+        position = arrayIndex
+        
+        while position > 0 and theArray[position -1] > currentArrayValue:
+            theArray[position] = theArray[position - 1]
+            position = position - 1
+            
+        theArray[position] = currentArrayValue
+        
+theArray = [31, 41, 59, 26, 41, 58]
+insertionSort(theArray)
+print(theArray)
