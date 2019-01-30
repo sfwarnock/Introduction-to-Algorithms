@@ -20,4 +20,10 @@ a = [31, 41, 59, 26, 41, 58]
 
 def insertionSort(a):
     
-    for arrayKey = 1 to len(a)
+    for currentCard in a[1]:
+        cardKey = currentCard
+        arrayIndex = currentCard - 1
+        while arrayIndex > 0 and a[arrayIndex] > cardKey:
+            
+        
+        
