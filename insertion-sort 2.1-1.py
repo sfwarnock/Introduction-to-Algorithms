@@ -19,11 +19,5 @@ Created on Wed Jan 16 06:06:16 2019
 a = [31, 41, 59, 26, 41, 58]
 
 def insertionSort(a):
-
-    for numberIndex in a:
-        j = a[1]
-        i = j - 1
-        while i > 0 and a[:] > j:
-            a[i+1] = a[i]
-            i += 1
-            a[i + 1] = j
+    
+    for arrayKey = 1 to len(a)
