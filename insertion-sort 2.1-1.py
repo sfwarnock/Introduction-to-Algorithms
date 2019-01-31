@@ -19,16 +19,16 @@ Created on Wed Jan 16 06:06:16 2019
 # O(n^2)
 
 def insertionSort(theArray):
-       for arrayIndex in range(1,len(theArray)):    # start at index location 1 of theArray
+       for arrayIndex in range(1,len(theArray)):    # start at index location 1 of theArray (outer loop)
         
-        currentArrayValue = theArray[arrayIndex]    # key value is equal the array index 
-        position = arrayIndex                       # 
+        currentArrayValue = theArray[arrayIndex]    # save key value 
+        position = arrayIndex                       # find position where value fits
         
-        while position > 0 and theArray[position -1] > currentArrayValue:   # while the postion value is greater than zero and 
+        while position > 0 and theArray[position -1] > currentArrayValue:   # (inner loop) shift items to the right during
             theArray[position] = theArray[position - 1]                     #
             position = position - 1                                         #
             
-        theArray[position] = currentArrayValue      #
+        theArray[position] = currentArrayValue      # copy value into place
         
 theArray = [31, 41, 59, 26, 41, 58, 1, 14, 100, 123, 145]
 insertionSort(theArray)
