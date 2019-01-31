@@ -16,19 +16,19 @@ Created on Wed Jan 16 06:06:16 2019
 #       i = i - 1
 #   A[i + 1] = key
 
-
+# O(n^2)
 
 def insertionSort(theArray):
-       for arrayIndex in range(1,len(theArray)):    # strat at index location 1 of theArray
+       for arrayIndex in range(1,len(theArray)):    # start at index location 1 of theArray
         
-        currentArrayValue = theArray[arrayIndex]    # value of the number in theArray is equal  
-        position = arrayIndex
+        currentArrayValue = theArray[arrayIndex]    # key value is equal the array index 
+        position = arrayIndex                       # 
         
-        while position > 0 and theArray[position -1] > currentArrayValue:
-            theArray[position] = theArray[position - 1]
-            position = position - 1
+        while position > 0 and theArray[position -1] > currentArrayValue:   # while the postion value is greater than zero and 
+            theArray[position] = theArray[position - 1]                     #
+            position = position - 1                                         #
             
-        theArray[position] = currentArrayValue
+        theArray[position] = currentArrayValue      #
         
 theArray = [31, 41, 59, 26, 41, 58, 1, 14, 100, 123, 145]
 insertionSort(theArray)
