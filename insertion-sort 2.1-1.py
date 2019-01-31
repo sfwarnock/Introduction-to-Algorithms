@@ -19,9 +19,9 @@ Created on Wed Jan 16 06:06:16 2019
 
 
 def insertionSort(theArray):
-       for arrayIndex in range(1,len(theArray)):
+       for arrayIndex in range(1,len(theArray)):    # strat at index location 1 of theArray
         
-        currentArrayValue = theArray[arrayIndex]
+        currentArrayValue = theArray[arrayIndex]    # value of the number in theArray is equal  
         position = arrayIndex
         
         while position > 0 and theArray[position -1] > currentArrayValue:
@@ -30,6 +30,6 @@ def insertionSort(theArray):
             
         theArray[position] = currentArrayValue
         
-theArray = [31, 41, 59, 26, 41, 58]
+theArray = [31, 41, 59, 26, 41, 58, 1, 14, 100, 123, 145]
 insertionSort(theArray)
 print(theArray)
