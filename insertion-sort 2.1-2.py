@@ -11,14 +11,14 @@ def decreasingInsertionSort(theArray):
     
     for arrayIndex in range(1, len(theArray)):
         
-        currentArrayValue = theArray[arrayIndex]
+        subArray = theArray[arrayIndex]
         position = arrayIndex
         
-        while position > 0 and theArray[position - 1] < currentArrayValue:
+        while position > 0 and theArray[position - 1] < subArray:
             theArray[position] = theArray[position - 1]
             position = position - 1
             
-        theArray[position] = currentArrayValue
+        theArray[position] = subArray
 
 theArray = [31, 41, 59, 26, 41, 58, 1, 14, 100, 123, 145]
 decreasingInsertionSort(theArray)
