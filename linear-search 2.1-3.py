@@ -12,3 +12,6 @@ Created on Tue Feb  5 06:34:49 2019
 #   Write pseudocode for linear search, which scans through the sequence, looking for v.
 #   Using a loop invariant, prove the your algorithm is correct. Make sure that your
 #   loop invariant fullfills the three necessary properties.
+
+def linearSearch(array):
+    
