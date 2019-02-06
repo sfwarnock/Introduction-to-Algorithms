@@ -14,4 +14,13 @@ Created on Tue Feb  5 06:34:49 2019
 #   loop invariant fullfills the three necessary properties.
 
 def linearSearch(array):
+    for arrayValue in range(array):
+        arrayValue = number
     
+    while arrayValue >= 0 and array :
+        
+        
+array = [1, 2, 3, 4, 5]
+number = 3
+linearSearch(array)
+print(linearSearch)
