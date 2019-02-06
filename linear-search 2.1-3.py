@@ -16,10 +16,9 @@ Created on Tue Feb  5 06:34:49 2019
 def linearSearch(array):
     for arrayValue in range(len(array)):
         if array[arrayValue] == number:
-            print(arrayValue)
-        else:
-            print('NIL')
-        
+            return print(arrayValue)
+    return print(-1);
+    
 array = [1, 2, 3, 4, 5]
-number = 4
+number = 5
 linearSearch(array)
