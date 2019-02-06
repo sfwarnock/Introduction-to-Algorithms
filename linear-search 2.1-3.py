@@ -15,15 +15,11 @@ Created on Tue Feb  5 06:34:49 2019
 
 def linearSearch(array):
     for arrayValue in range(len(array)):
-        arrayValue = number
-    
-    while arrayValue > 0 and array > array[-1]:
-        if arrayValue == number:
-            print(len(array))
+        if array[arrayValue] == number:
+            print(arrayValue)
         else:
             print('NIL')
         
 array = [1, 2, 3, 4, 5]
-number = 3
+number = 4
 linearSearch(array)
-print(linearSearch)
