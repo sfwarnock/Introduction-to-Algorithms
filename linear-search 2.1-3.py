@@ -19,6 +19,6 @@ def linearSearch(array):
             return print(arrayValue)
     return print(-1);
     
-array = [1, 2, 3, 4, 5]
-number = 5
+array = [125, 26, 35, 105, 104]
+number = 125
 linearSearch(array)
