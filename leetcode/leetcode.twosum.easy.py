@@ -18,8 +18,11 @@ Created on Thu Feb  7 06:15:11 2019
 #   return [0,1]
 
 def sumTwo():
-    for values in range(0,len(numbersArray)):
+    for values in range(0,len(numbersArray)):       
         currentArrayValue == numbersArray[values]
-        targetSum = 9
         
-        while currentArrayValue > 0 
+        
+        while currentArrayValue > 0 and :
+            
+            
+numbersArray = [4, 5, 9, 10, 11]
