@@ -18,9 +18,9 @@ Created on Thu Feb  7 06:15:11 2019
 #   return [0,1]
 
 def sumTwo(numbersArray):
-    for values in range(0,len(numbersArray)):       
-        currentArrayValue = numbersArray[values]
-        targetSum = numbersArray[values + 1] + currentArrayValue
+    for values in range(0,len(numbersArray)):                       # start at index 0 of the array
+        currentArrayValue = numbersArray[values]                    # value of the array = index of array
+        targetSum = numbersArray[values + 1] + currentArrayValue    # targetsum is value of array + value 
         targetValue = 9
                   
         while currentArrayValue > 0 and targetSum != targetValue:
