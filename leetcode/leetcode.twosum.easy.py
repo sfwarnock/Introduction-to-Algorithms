@@ -20,10 +20,12 @@ Created on Thu Feb  7 06:15:11 2019
 def sumTwo(numbersArray):
     # Outer Loop moves through array
     for values in range(0,len(numbersArray)):                       # start at index 0 of the array 
-        currentArrayValue = numbersArray[values]                    # value of the array = index of array
-        targetValue = 9                                             # target value
+        currentArrayValue = numbersArray[indexValue]                # value of the array = index of array
+        targetSum = 9
+
         # Inner loop adds values until target sum is found.
-        while currentArrayValue > 0 and targetSum != targetValue:   # while current array value is greater than zero and target value is not equal to target
+        for currentArrayValue in numbersArray:                            # while current array value is greater than zero and target value is not equal to target
+            
 
 numbersArray = [2, 7, 11, 15]
 sumTwo(numbersArray)
