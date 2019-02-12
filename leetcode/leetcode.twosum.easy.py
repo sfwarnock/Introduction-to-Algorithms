@@ -18,17 +18,13 @@ Created on Thu Feb  7 06:15:11 2019
 #   return [0,1]
 
 def sumTwo(numbersArray):
-    for values in range(0,len(numbersArray)):                       # start at index 0 of the array
+    # Outer Loop moves through array
+    for values in range(0,len(numbersArray)):                       # start at index 0 of the array 
         currentArrayValue = numbersArray[values]                    # value of the array = index of array
-        targetSum = numbersArray[values + 1] + currentArrayValue    # targetsum is value of array + value 
-        targetValue = 9
-                  
-        while currentArrayValue > 0 and targetSum != targetValue:
-            if targetSum == targetValue:
-                return currentArrayValue[values] and numbersArray[values]
-            elif targetSum != targetValue:
-                currentArrayValue =+ 1
-            
-numbersArray = [4, 5, 9, 10, 11]
+        targetValue = 9                                             # target value
+        # Inner loop adds values until target sum is found.
+        while currentArrayValue > 0 and targetSum != targetValue:   # while current array value is greater than zero and target value is not equal to target
+
+numbersArray = [2, 7, 11, 15]
 sumTwo(numbersArray)
 print(sumTwo)
