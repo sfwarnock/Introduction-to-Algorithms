@@ -20,7 +20,7 @@ Created on Thu Feb  7 06:15:11 2019
 def sumTwo(numbersArray):
     for values in range(0,len(numbersArray)):       
         currentArrayValue = numbersArray[values]
-        targetSum = numbersArray + currentArrayValue
+        targetSum = numbersArray[values + 1] + currentArrayValue
         targetValue = 9
                   
         while currentArrayValue > 0 and targetSum != targetValue:
