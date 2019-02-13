@@ -20,9 +20,22 @@ Created on Thu Feb  7 06:15:11 2019
 '''
 Pseudocode
 
-for j = 0 to nums.length
-    
+Brute Force
 
+for j = 0 to nums.length
+    num = a[j]
+    i = j + 1
+    
+    
+    
+    
+Single Pass Hash Table    
+    
+    myHash = {}
+    for index, value in enumerate(nums):
+        if target - value in myHash:
+            return [myHash[target-value], index]
+        myHash[value] = index
 
 
 '''
