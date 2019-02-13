@@ -17,6 +17,16 @@ Created on Thu Feb  7 06:15:11 2019
 #   because nums[0] + nums[1] = 2 + 7 = 9
 #   return [0,1]
 
+'''
+Pseudocode
+
+for j = 0 to nums.length
+    
+
+
+
+'''
+
 def sumTwo(numbersArray):
     # Outer Loop moves through array
     for values in range(0,len(numbersArray)):                       # start at index 0 of the array 
