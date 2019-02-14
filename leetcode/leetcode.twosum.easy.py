@@ -44,6 +44,13 @@ Single Pass Hash Table
             return [myHash[target-value], index]
         myHash[value] = index
 
+My code:
+
+for num in array:
+    num = array[j]
+    i = j + 1
+
+
 
 '''
 
