@@ -49,6 +49,8 @@ My code:
 for num in array:
     num = array[j]
     i = j + 1
+    k = array[j + 1]
+    
 
 
 
