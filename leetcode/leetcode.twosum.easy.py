@@ -22,13 +22,19 @@ Pseudocode
 
 Brute Force
 
-for j = 0 to nums.length
-    num1 = j[0]
-    num2 = j[1]
-    
-    
-    
-    
+def twoSum(self, nums, target):
+    i=0
+   l=[0]*2
+   for x in nums:
+       j=nums.index(x)+1
+       for y in nums:
+           if(j<len(nums)):
+               if (x + nums[j]) == target:
+                   l[0]=nums.index(x)
+                   l[1]=j
+                   break;
+                 j=j+1
+        return(l) 
     
 Single Pass Hash Table    
     
