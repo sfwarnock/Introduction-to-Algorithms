@@ -46,13 +46,15 @@ Single Pass Hash Table
 
 My code:
 
-for num in array:
-    num = array[j]
-    i = j + 1
+for j = 0 in array.length:
+    j = array[j]
     k = array[j + 1]
-    
-
-
+    for k = 1 in array.length:
+        if j + k == target:
+            return array[j,k]
+        else
+            i = k + 1
+    l = j + 1
 
 '''
 
