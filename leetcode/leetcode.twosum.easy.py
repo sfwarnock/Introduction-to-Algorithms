@@ -23,8 +23,9 @@ Pseudocode
 Brute Force
 
 for j = 0 to nums.length
-    num = a[j]
-    i = j + 1
+    num1 = j[0]
+    num2 = j[1]
+    
     
     
     
