@@ -46,10 +46,10 @@ Single Pass Hash Table
 
 My code:
 
-for j = 0 in array.length:
+for j in array:
     j = array[j]
     k = array[j + 1]
-    for k = 1 in array.length:
+    for k = 1 in array:
         if j + k == target:
             return array[j,k]
         else
