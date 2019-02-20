@@ -58,17 +58,18 @@ for j in array:
 
 '''
 
-def sumTwo(numbersArray):
+def sumTwo(numbersArray, target):
     for num1 in numbersArray:
         num1 = numbersArray[0]
-        num2 = numbersArray[num1 + 1]
-        num1 += 1
-        num2 += 1
-        for target in numbersArray:
-            if num1 + num2 = target:
-                
-            
+        num2 = numbersArray[1]
+        for num2 in numbersArray:
+            if target == num1 + num2:
+                return num1, num2
+            else:
+                num2 += 1
+        num1 += 1   
 
+            
+target = 9
 numbersArray = [2, 7, 11, 15]
-sumTwo(numbersArray)
-print(sumTwo)
+sumTwo(numbersArray, target)
