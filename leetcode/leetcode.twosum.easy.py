@@ -59,13 +59,12 @@ for j in array:
 '''
 
 def sumTwo(numbersArray):
-    # Outer Loop moves through array
-    for values in range(0,len(numbersArray)):                       # start at index 0 of the array 
-        currentArrayValue = numbersArray[indexValue]                # value of the array = index of array
-        targetSum = 9
-
-        # Inner loop adds values until target sum is found.
-        for currentArrayValue in numbersArray:                            # while current array value is greater than zero and target value is not equal to target
+    for num1 in numbersArray:
+        num1 = numbersArray[0]
+        num2 = numbersArray[num1 + 1]
+        num1 += 1
+        num2 += 1
+        for 
             
 
 numbersArray = [2, 7, 11, 15]
