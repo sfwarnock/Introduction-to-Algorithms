@@ -64,7 +64,9 @@ def sumTwo(numbersArray):
         num2 = numbersArray[num1 + 1]
         num1 += 1
         num2 += 1
-        for 
+        for target in numbersArray:
+            if num1 + num2 = target:
+                
             
 
 numbersArray = [2, 7, 11, 15]
