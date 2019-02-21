@@ -59,7 +59,7 @@ for j in array:
 '''
 
 def sumTwo(numbersArray, target):
-    for nums in range(0, len(numbersArray)):
+    for values in range(0, len(numbersArray)):
         
 
             
