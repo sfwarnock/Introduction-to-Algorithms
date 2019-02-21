@@ -59,15 +59,8 @@ for j in array:
 '''
 
 def sumTwo(numbersArray, target):
-    for num1 in numbersArray:
-        num1 = numbersArray[0]
-        num2 = numbersArray[1]
-        for num2 in numbersArray:
-            if target == num1 + num2:
-                return num1, num2
-            else:
-                num2 += 1
-        num1 += 1   
+    for nums in range(0, len(numbersArray)):
+        
 
             
 target = 9
