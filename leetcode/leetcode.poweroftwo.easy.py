@@ -31,6 +31,7 @@ def powerOfTwo(n):
     while n % 2 == 0:
         n = n / 2
         
-    return n== 1
+    return n == 1
 
-n = 16  
+n = 4096
+powerOfTwo(n)
