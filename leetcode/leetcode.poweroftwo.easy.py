@@ -25,13 +25,19 @@ Example 3:
 """
 
 def powerOfTwo(n):
-    if n <=0:
+    m = n
+    if m <=0:
         return False
 
-    while n % 2 == 0:
-        n = n / 2
-        
-    return n == 1
+    while m % 2 == 0:
+        m = m / 2
 
-n = 4096
+    if m == 1:
+        print(n, 'is a power of two.')
+        return True
+    else:
+        print(n, 'is not a power of two')
+        return False
+
+n = 218
 powerOfTwo(n)
