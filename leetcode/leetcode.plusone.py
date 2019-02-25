@@ -26,3 +26,9 @@ Explanation: The array represents the integer 4321.
 
 """
 
+def plusOne(a):
+    
+
+    
+    
+a = [4,3,2,1]
