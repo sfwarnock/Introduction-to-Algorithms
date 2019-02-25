@@ -27,9 +27,10 @@ Explanation: The array represents the integer 4321.
 """
 
 def plusOne(a):
-    for i in range(-1,len(a)):
+    for i in a:
+        i = a[-1]
+        i += 1
+        return(a)
         
-
-    
-    
 a = [4,3,2,1]
+plusOne(a)
