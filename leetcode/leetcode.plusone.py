@@ -26,11 +26,12 @@ Explanation: The array represents the integer 4321.
 
 """
 
-def plusOne(a):
-    for i in a:
-        i = a[-1]
-        i += 1
-        return(a)
+def plusOne(digits):
+    for i in digits:
+        i = digits[-1]
+        i = i + 1
+        print(i)
+        return(digits)
         
-a = [4,3,2,1]
-plusOne(a)
+digits = [9, 9, 9, 9]
+plusOne(digits)
