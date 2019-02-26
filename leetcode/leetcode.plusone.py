@@ -32,9 +32,10 @@ def plusOne(digits):
         print (digits)
         return digits
     
+    i = 0
     if digits[-1] == 9:
-
-        print(digits)
+        digits[-1] = i
+    print(digits)
          
 digits = [2, 9, 9]
 plusOne(digits)
