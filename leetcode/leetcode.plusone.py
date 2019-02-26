@@ -29,9 +29,12 @@ Explanation: The array represents the integer 4321.
 def plusOne(digits):
     if digits[-1] != 9:
         digits[-1] += 1
+        print (digits)
+        return digits
+    
+    if digits[-1] == 9:
+
         print(digits)
-    elif digits[-1] == 9:
-        
-        
-digits = [9]
+         
+digits = [2, 9, 9]
 plusOne(digits)
