@@ -27,15 +27,15 @@ Explanation: The array represents the integer 4321.
 """
 
 def plusOne(digits):
-    if digits[-1] != 9:
-        digits[-1] += 1
+    i = -1
+    if digits[i] != 9:
+        digits[i] += 1
         print (digits)
         return digits
     
-    for digit in range(len(digits),-1):
-        if digit == 9:
-            digit[:] = 0
+    if digits
+    
     print(digits)
          
-digits = [2, 9, 9]
+digits = [2, 9, 8]
 plusOne(digits)
