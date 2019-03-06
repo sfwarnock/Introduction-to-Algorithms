@@ -30,13 +30,15 @@ def plusOne(digits):
     i = -1
     if digits[i] != 9:
         digits[i] += 1
-        print (digits)
         return digits
-    
+   
     for digit in digits:
         if digits[i] == 9:
             digits[i] = 0
             i -= 1
+        else:
+            digits[i] += 1
+            
     print(digits)
          
 digits = [2, 9, 9]
