@@ -37,10 +37,9 @@ def plusOne(digits):
         if digits[i] == 9:
             digits[i] = 0
             i -= 1
-        if digits[i] != 9:
-            digits[i] += 1
+            digits[i - 1] += 1
             
     print(digits)
          
-digits = [8]
+digits = [9, 9, 9, 9]
 plusOne(digits)
