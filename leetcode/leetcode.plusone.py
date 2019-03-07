@@ -36,8 +36,12 @@ def plusOne(digits):
     for digit in digits:
         if digits[i] == 9:
             digits[i] = 0
-        
+            i -= 1
+        if digits[0] == 0:
+            digits.insert(0,1)
     print(digits)
+    return digits
+        
          
-digits = [9, 9]
+digits = [8, 9, 9, 9]
 plusOne(digits)
