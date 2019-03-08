@@ -30,10 +30,12 @@ Explanation: The input binary string 11111111111111111111111111111101 has a tota
 
 """
 
-class Solution(object):
-    def hammingWeight(self, n):
-        """
-        :type n: int
-        :rtype: int
-        """
+
+def hammingWeight(n):
+    d = []
+    for bits in range(len(n)):
         
+    
+    
+    
+n = 00000000000000000000000000001011
