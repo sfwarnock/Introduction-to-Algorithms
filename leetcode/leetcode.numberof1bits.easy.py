@@ -32,9 +32,11 @@ Explanation: The input binary string 11111111111111111111111111111101 has a tota
 
 
 def hammingWeight(n):
-    d = []
+    d = {}
+    i = n[i]
     for bits in range(len(n)):
-        
+        if bits not in d:
+            
     
     
     
