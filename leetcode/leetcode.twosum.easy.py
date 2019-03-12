@@ -59,18 +59,13 @@ for j in array:
 '''
 
 def sumTwo(numbersArray, target):
-    indexi, indexj = numbersArray[0], numbersArray[1],
-    print(indexi, indexj)
-    for i in range(len(numbersArray)-1):
-        indexi += 1
+    for i in range(len(numbersArray)):
         for j in range(i+1, len(numbersArray)):
-            indexj +1
             if numbersArray[i] + numbersArray[j] == target:
                 print(numbersArray[i], numbersArray[j])
-                print(indexi, indexj)
-                return True
-    return False
+        
+
                     
 target = 9
-numbersArray = [1, 2, 7, 11, 15, 45]
+numbersArray = [2, 7, 11, 15, 45]
 sumTwo(numbersArray, target)
