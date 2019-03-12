@@ -17,55 +17,11 @@ Created on Thu Feb  7 06:15:11 2019
 #   because nums[0] + nums[1] = 2 + 7 = 9
 #   return [0,1]
 
-'''
-Pseudocode
-
-Brute Force
-
-def twoSum(self, nums, target):
-    i=0
-   l=[0]*2
-   for x in nums:
-       j=nums.index(x)+1
-       for y in nums:
-           if(j<len(nums)):
-               if (x + nums[j]) == target:
-                   l[0]=nums.index(x)
-                   l[1]=j
-                   break;
-                 j=j+1
-        return(l) 
-    
-Single Pass Hash Table    
-    
-    myHash = {}
-    for index, value in enumerate(nums):
-        if target - value in myHash:
-            return [myHash[target-value], index]
-        myHash[value] = index
-
-My code:
-
-for j in array:
-    j = array[j]
-    k = array[j + 1]
-    for k = 1 in array:
-        if j + k == target:
-            return array[j,k]
-        else
-            i = k + 1
-    l = j + 1
-
-'''
-
-def sumTwo(numbersArray, target):
-    for i in range(len(numbersArray)):
-        for j in range(i+1, len(numbersArray)):
-            if numbersArray[i] + numbersArray[j] == target:
-                print(numbersArray[i], numbersArray[j])
-        
-
-                    
-target = 9
-numbersArray = [2, 7, 11, 15, 45]
-sumTwo(numbersArray, target)
+def sumTwo(a, target):
+    i, j = 0, 1
+    k = a[i+1] + a[j+1]
+    print(a[i+1], a[j+1], k)
+                          
+target = 26
+a = [2, 7, 11, 15, 45]
+sumTwo(a, target)
