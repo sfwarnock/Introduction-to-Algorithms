@@ -59,6 +59,8 @@ for j in array:
 '''
 
 def sumTwo(numbersArray, target):
+    index = numbersArray[0]
+    print(index)
     for i in range(len(numbersArray)-1):
         for j in range(i+1, len(numbersArray)):
             if numbersArray[i] + numbersArray[j] == target:
