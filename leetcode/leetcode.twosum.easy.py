@@ -18,10 +18,14 @@ Created on Thu Feb  7 06:15:11 2019
 #   return [0,1]
 
 def sumTwo(a, target):
-    i = 1
+    i = 0
     j = a[i]
     k = target - j
 
+    if k in a:
+        print(i, j, k, 'True')
+    else:
+        print('Flase')
     print(i, j, k)
 
             
