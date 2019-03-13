@@ -18,17 +18,19 @@ Created on Thu Feb  7 06:15:11 2019
 #   return [0,1]
 
 def sumTwo(a, target):
-    i = 0
-    j = a[i]
-    k = target - j
-
-    if k in a:
-        print(i, j, k, 'True')
-    else:
-        print('Flase')
-    print(i, j, k)
-
+    
+    for i in range(len(a)):
+        i = 0
+        for j in range(len(a)):
+            j = a[i]
+            m = target - j
+            if m in a:
+                print(j, m)
+            else:
+                i += 1
+                
+        
             
-target = 22
+target = 26
 a = [2, 7, 11, 15, 45]
 sumTwo(a, target)
