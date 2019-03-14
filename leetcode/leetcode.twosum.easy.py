@@ -22,13 +22,12 @@ def sumTwo(a, target):
     for i in range(len(a)):
         j = i + 1
         for j in range(len(a)):
-            if a[i] + a[j] == target:
-                print(i, j)
-            else:
+            if a[i] + a[j] != target:
                 j += 1
-    i +=1 
+            else:
+                print(i, j)
     
     
-target = 9
+target = 13
 a = [2, 7, 11, 15, 45]
 sumTwo(a, target)
