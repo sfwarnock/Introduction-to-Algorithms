@@ -20,9 +20,15 @@ Created on Thu Feb  7 06:15:11 2019
 def sumTwo(a, target):
 
     for i in range(len(a)):
+        j = i + 1
         for j in range(len(a)):
-            print(i, j)
-            
+            if a[i] + a[j] == target:
+                print(i, j)
+            else:
+                j += 1
+    i +=1 
+    
+    
 target = 9
 a = [2, 7, 11, 15, 45]
 sumTwo(a, target)
