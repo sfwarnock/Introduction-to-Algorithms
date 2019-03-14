@@ -20,14 +20,14 @@ Created on Thu Feb  7 06:15:11 2019
 def sumTwo(a, target):
 
     for i in range(len(a)):
-        j = i + 1
         for j in range(len(a)):
+            j = i + 1
             if a[i] + a[j] != target:
                 j += 1
             else:
-                print(i, j)
-    
-    
-target = 13
-a = [2, 7, 11, 15, 45]
+                break
+            print(i, a[i], j, a[j]) 
+            
+target = 6
+a = [3, 2, 4]
 sumTwo(a, target)
