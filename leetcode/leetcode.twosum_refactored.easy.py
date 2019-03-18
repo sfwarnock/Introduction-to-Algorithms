@@ -19,13 +19,11 @@ Created on Mon Mar 18 06:54:10 2019
 
 def sumTwo(a, target):
     
-    i = 0
-    j = target - a[i]
-    while j < target:
-        print(a[j], a[i])
-        break
+    while k not in a:
+        i = 0
+        k = target - a[i]
     
-    
-target = 9
+        
+target = 22
 a = [2, 7, 11, 15]
 sumTwo(a, target)
