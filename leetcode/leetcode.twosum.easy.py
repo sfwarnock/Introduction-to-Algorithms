@@ -18,16 +18,13 @@ Created on Thu Feb  7 06:15:11 2019
 #   return [0,1]
 
 def sumTwo(a, target):
-
+    j = 0
     for i in range(len(a)):
-        for j in range(len(a)):
-            j = i + 1
-            if a[i] + a[j] != target:
-                j += 1
-            else:
-                break
-            print(i, a[i], j, a[j]) 
-            
-target = 6
-a = [3, 2, 4]
+        k = a[j] + a[i]
+        print(k)
+        
+        
+        
+target = 18
+a = [2, 7, 11, 15]
 sumTwo(a, target)
