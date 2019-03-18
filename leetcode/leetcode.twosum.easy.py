@@ -18,16 +18,12 @@ Created on Thu Feb  7 06:15:11 2019
 #   return [0,1]
 
 def sumTwo(a, target):
-    j = 0
+
     for i in range(len(a)):
-        k = target - a[i]
-        if k in a:
-            print(k, j)
-        else:
-            j += 1
-        
-        
-        
+        for j in range(i + 1, len(a)):
+            if a[i] + a[j] == target:
+                print(i, j)
+                
         
 target = 13
 a = [2, 7, 11, 15]
