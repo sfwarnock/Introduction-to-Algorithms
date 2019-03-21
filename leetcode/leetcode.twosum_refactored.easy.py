@@ -16,21 +16,15 @@ Created on Mon Mar 18 06:54:10 2019
 
 #   because nums[0] + nums[1] = 2 + 7 = 9
 #   return [0,1]
-'''
-add array to dict key, value equals index.
-k = key[v = 0] - target
-while key[v] >= 0:
-    if k in d:
-        return key[v = 0], k,v
-    else:
-        key[v + 1]
-    d = {a[i]: i for i in range(len(a))}
-'''
 
 def sumTwo(a, target):
 
     d = {a[i]: i for i in range(len(a))}
-    print(d)
+    i = 0
+    k = target - a[i]
+    
+    if k in d:
+        print(i, d[k])
     
     
 target = 9
