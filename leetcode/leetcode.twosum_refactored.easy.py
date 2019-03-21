@@ -22,6 +22,11 @@ def sumTwo(a, target):
         d[i] = a[i]
     print (d)
     
+    for k in d:
+        if k == 2:
+            print (k, d[k])
+    
+    
 target = 22
 a = [2, 7, 11, 15]
 sumTwo(a, target)
