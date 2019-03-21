@@ -21,14 +21,15 @@ def sumTwo(a, target):
 
     d = {a[i]: i for i in range(len(a))}
     i = 0
-    while i != - 1:
-        k = target - a[i]
-        if k in d:
-            print(i, d[k])
+    
+    while d:
+        j = target - a[i]
+        if j in d:    
+            print (i, d[j])
+            break
         else:
             i += 1
     
-    
-target = 17
+target = 26
 a = [2, 7, 11, 15]
 sumTwo(a, target)
