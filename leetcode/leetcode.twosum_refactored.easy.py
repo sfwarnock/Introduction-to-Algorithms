@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Mar 18 06:54:10 2019
-
 @author: Scott Warnock
 """
 
@@ -18,12 +17,11 @@ Created on Mon Mar 18 06:54:10 2019
 #   return [0,1]
 
 def sumTwo(a, target):
+    d = {}
+    for i in range(len(a)):
+        d[i] = a[i]
+    print (d)
     
-    while k not in a:
-        i = 0
-        k = target - a[i]
-    
-        
 target = 22
 a = [2, 7, 11, 15]
 sumTwo(a, target)
