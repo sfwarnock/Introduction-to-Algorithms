@@ -26,15 +26,22 @@ while key[v] >= 0:
     else:
         key[v + 1]
 
+
+    d = {a[i]: i for i in range(len(a))}
 '''
 
 def sumTwo(a, target):
-    d = {a[i]: i for i in range(len(a))}
+    d = {}
     
+    for i in range(len(a)):
+        d[i] = a[i]
     
+    j = 0
+    k = target - d[j]
+    print(k)
+    if k in d:
+        print('Yes')
     
-    
-    
-target = 22
+target = 9
 a = [2, 7, 11, 15]
 sumTwo(a, target)
