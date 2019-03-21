@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Mar 18 06:54:10 2019
+
 @author: Scott Warnock
 """
 
@@ -17,30 +18,20 @@ Created on Mon Mar 18 06:54:10 2019
 #   return [0,1]
 '''
 add array to dict key, value equals index.
-
 k = key[v = 0] - target
-
 while key[v] >= 0:
     if k in d:
         return key[v = 0], k,v
     else:
         key[v + 1]
-
-
     d = {a[i]: i for i in range(len(a))}
 '''
 
 def sumTwo(a, target):
-    d = {}
+
+    d = {a[i]: i for i in range(len(a))}
+    print(d)
     
-    for i in range(len(a)):
-        d[i] = a[i]
-    
-    j = 0
-    k = target - d[j]
-    print(k)
-    if k in d:
-        print('Yes')
     
 target = 9
 a = [2, 7, 11, 15]
