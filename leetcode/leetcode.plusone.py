@@ -41,12 +41,15 @@ def plusOne(digits):
     while True:
         if digits[i] == 9:
             digits[i] = 0
-            digits[i - 1] += 1
+            i += 1
+        if digits[0] == 9:
+            digits.insert(0,1)
+            break
         else:
             digits[i] += 1
             break
 
     print(digits)
     
-digits = [9, 9, 9]
+digits = [9, 9, 8]
 plusOne(digits)
