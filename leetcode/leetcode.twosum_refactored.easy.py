@@ -36,12 +36,12 @@ def sumTwo(a, target):
     
     while True:
         j = target - a[i]
-        if j in d and j != a[i]:    
+        if j in d and d[j] != i:    
             print (i, d[j])
             break
         else:
             i += 1
         
-target = 6
-a = [3, 2, 4]
+target = 9
+a = [2, 7, 11, 15]
 sumTwo(a, target)
