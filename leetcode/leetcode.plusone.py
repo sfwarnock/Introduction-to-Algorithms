@@ -38,14 +38,17 @@ def plusOne(digits):
     
     i = -1
     
-    while True:
+    while i < 0:
         if digits[i] == 9:
             digits[i] = 0
+            print('end')
         if digits[0] == 9:
             digits.insert(0,1)
+            print('insert')
             break
-        else:
-            digits[i] += 1
+        if digits[i] != 9:
+            i += 1
+            print('else')
             break
         
     print(digits)
