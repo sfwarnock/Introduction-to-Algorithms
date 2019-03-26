@@ -24,25 +24,16 @@ Input: [4,3,2,1]
 Output: [4,3,2,2]
 Explanation: The array represents the integer 4321.
 
-
-at digits[-1]:
-    if digits[-1] == 9:
-        digits[-1] = 0
-        digits[-2] += 1
-    else:
-        digits[-1] += 1
-
 """
 
 def plusOne(digits):
     
-    for i in range(-1,len(digits), -1):
-        if digits[i] == 9:
-            digits[i] = 0
-            i += 1
-            print(digits)
-        else:
-            digits[i] += 1
+    i = len(digits) -1
+    while digits[i] == 9:
+        digits[i] = 0
+        print(digits)
+        i -= 1
+            
     print(digits)
     
 digits = [9, 9, 9]
