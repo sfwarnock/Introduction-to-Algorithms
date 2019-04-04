@@ -5,9 +5,16 @@ Created on Thu Apr  4 06:24:01 2019
 @author: Scott Warnock
 """
 
-x = 16
+x = 25
 ans = 0
 
-while ans*ans < x:
-    ans = ans + 1
-print (ans)
+if x >= 0:
+    while ans*ans < x:
+        ans = ans + 1
+        #print ('ans = ', ans)
+    if ans * ans != x:
+        print('x is not a perfect square')
+    else:
+        print(ans)
+else: print ('x is a negative number')
+        
