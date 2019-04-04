@@ -22,3 +22,14 @@ y = 10
 for i in range(1, y):
     if y % i == 0:
         print('Divisor', i)
+        
+foo = (1, 2, 3, 4, 5)   #Tuple
+bar = [1, 2, 3, 4, 5]   #List
+print(foo[1], bar[1])
+
+z = 100
+div = ()
+for i in range(1,z):
+    if z % i == 0:
+        div = div + (i,)
+print(div)
