@@ -1,6 +1,9 @@
 Lecture 3
 
-##Data          Operations            Statements
-Num
-Strings
-Booleans
+Data          Operations            Commands
+Num           +, *                  Assignment
+Strings       and, or               input/output
+Booleans                            conditionals
+                                    loop mech. (while)
+
+
