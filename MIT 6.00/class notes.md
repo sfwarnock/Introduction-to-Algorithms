@@ -31,10 +31,26 @@ We have   Turring Complete
   looping constructs (for/loop)
   
 We dont have
-  Decomposition - way of structure onto the code
-  Abstraction - suppress details, treat comuption like a black box
+  - Decomposition - way of structure onto the code
+  - Abstraction - suppress details, treat comuption like a black box
   
 Functions
   break-up into modules
   suppress detail
   create 'new primitives'
+
+Sytax of function:
+  def - keyword
+  name(x) ~ defines formal parameters
+  'def name(x)'
+  return - keyword
+
+Invoke function by passing in value or the parameters
+sprt(16)
+binds x to 16 ~ local binding / ans is also only bound locally
+local bindings do not affect any global bindings
+
+interperter - global bindings 
+call function
+  creates local table within global 
+    for sqrt x/ans bound local
