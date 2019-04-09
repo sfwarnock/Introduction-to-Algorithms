@@ -23,6 +23,7 @@ Branch testing
 - Flow charts for program design
 
 Lecture 4 | MIT 6.00 Into to CS
+Decomposition and abstraction through functions; into to recursion
 
 We have   Turring Complete
   Assignment
@@ -54,3 +55,12 @@ interperter - global bindings
 call function
   creates local table within global 
     for sqrt x/ans bound local
+    
+Include Specifications with """..."""" at start of function.
+
+Farmyard Problem
+  20 heads, 56 legs
+  numPigs + numChick = 20
+  4*numPigs + 2*numChick = 56
+  
+ Brutte force algotrithm - enumerate & check
