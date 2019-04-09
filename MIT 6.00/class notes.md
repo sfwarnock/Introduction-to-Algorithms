@@ -64,3 +64,6 @@ Farmyard Problem
   4*numPigs + 2*numChick = 56
   
  Brutte force algotrithm - enumerate & check
+ 
+ pigs, chickens & spiders
+ 
