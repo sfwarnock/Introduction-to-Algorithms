@@ -27,10 +27,10 @@ sqrt(25)
 def solve(numLegs, numHeads):
     for numChicks in range(0, numHeads + 1):
         numPigs = numHeads - numChicks
-        totLegs = (4 * numbPigs) + (2 * numChicks)
+        totLegs = 4 * numPigs + 2 * numChicks
         if totLegs == numLegs:
             return [numPigs, numChicks]
-        return [None, None]
+    return [None, None]
 
 def barnYard():
     heads = int(input('Enter the number of heads: '))
@@ -41,3 +41,28 @@ def barnYard():
     else:
         print('Number of pigs: ', pigs)
         print('Number of chickens: ', chickens)
+
+barnYard()
+
+
+def solve1(numLegs, numHeads):
+    for numSpiders in range(0, numHeads + 1):
+        for numChicks in range(0, numHeads - numSpiders + 1):
+            numPigs = numHeads - numChicks
+            totLegs = 4 * numPigs + 2 * numChicks + 8 * numSpiders
+            if totLegs == numLegs:
+                return [numPigs, numChicks, numSpiders]
+    return [None, None, None]
+
+def barnYard1():
+    heads = int(input('Enter the number of heads: '))
+    legs = int(input('Enter the number of legs: '))
+    pigs, chickens, spiders = solve1(legs, heads)
+    if pigs == None:
+        print('There is no solution')
+    else:
+        print('Number of pigs: ', pigs)
+        print('Number of chickens: ', chickens)
+        print('Number of spiders: ', spiders)
+
+barnYard1()
