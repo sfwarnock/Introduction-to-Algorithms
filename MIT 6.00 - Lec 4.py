@@ -75,8 +75,8 @@ def solve2(numLegs, numHeads):
             numPigs = numHeads - numChicks
             totLegs = 4 * numPigs + 2 * numChicks + 8 * numSpiders
             if totLegs == numLegs:
-                print('Number of Pigs: ', str(numPigs) + ',',)
-                print('Number of Chickens: ', str(numChicks) + ',',)
+                print('Number of Pigs: ', str(numPigs))
+                print('Number of Chickens: ', str(numChicks))
                 print('Number of Spiders: ', numSpiders)
                 solutionFound = True
     if not solutionFound: print('There is no solution.')
