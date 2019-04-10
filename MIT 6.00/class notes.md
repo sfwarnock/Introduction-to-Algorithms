@@ -72,4 +72,7 @@ Farmyard Problem
  - inductive step
     break problem into simpler version of same problem with other steps
   
- 
+ Fibonacci Number
+  Pairs(0) = 1
+  Pairs(1) = 1
+  Pairs(n) = pairs(n-1) + pairs(n-2)
