@@ -4,9 +4,9 @@ Created on Thu Apr  4 06:24:01 2019
 
 @author: Scott Warnock
 """
-"""
+
 def sqrt(x):
-    """"""Specification: Returns the square root of x, if x is a perfect square.""""""
+    """Specification: Returns the square root of x, if x is a perfect square."""
     ans = 0
     
     if x >= 0:
@@ -45,6 +45,7 @@ def barnYard():
 barnYard()
 
 
+"""
 def solve1(numLegs, numHeads):
     for numSpiders in range(0, numHeads + 1):
         for numChicks in range(0, numHeads - numSpiders + 1):
@@ -67,7 +68,7 @@ def barnYard1():
 
 barnYard1()
 """
-
+"""
 def solve2(numLegs, numHeads):
     solutionFound = False
     for numSpiders in range(0, numHeads + 1):
@@ -93,3 +94,10 @@ def barnYard2():
         print('Number of spiders: ', spiders)
 
 barnYard2()
+"""
+
+def isPalindrome(s):
+    """Rerturns True if s is a palindrome and False otherwise"""
+    if len(s) <= 1: 
+        return True
+    else: return s[0] == s[-1] and isPalindrome(s[1:-1])
