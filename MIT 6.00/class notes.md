@@ -67,3 +67,9 @@ Farmyard Problem
  
  pigs, chickens & spiders
  
+ Recursion
+ - Base case...simple soultion
+ - inductive step
+    break problem into simpler version of same problem with other steps
+  
+ 
