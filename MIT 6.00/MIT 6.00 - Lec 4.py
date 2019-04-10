@@ -4,9 +4,9 @@ Created on Thu Apr  4 06:24:01 2019
 
 @author: Scott Warnock
 """
-
+"""
 def sqrt(x):
-    """Specification: Returns the square root of x, if x is a perfect square."""
+    """"""Specification: Returns the square root of x, if x is a perfect square.""""""
     ans = 0
     
     if x >= 0:
@@ -43,7 +43,7 @@ def barnYard():
         print('Number of chickens: ', chickens)
 
 barnYard()
-
+"""
 
 """
 def solve1(numLegs, numHeads):
@@ -101,3 +101,6 @@ def isPalindrome(s):
     if len(s) <= 1: 
         return True
     else: return s[0] == s[-1] and isPalindrome(s[1:-1])
+    
+isPalindrome("abba")
+    
