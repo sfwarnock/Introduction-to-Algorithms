@@ -103,4 +103,11 @@ def isPalindrome(s):
     else: return s[0] == s[-1] and isPalindrome(s[1:-1])
     
 isPalindrome("abba")
+
+def fib(x):
+    """Returns fibonacci of x, where x is a non-negative int"""
+    if x == 0 or x == 1: return 1
+    else: return fib(x-1) + fib(x-2)
+
+fib(12)
     
