@@ -22,7 +22,7 @@ Branch testing
 
 - Flow charts for program design
 
-Lecture 4 | MIT 6.00 Into to CS
+#Lecture 4 | MIT 6.00 Into to CS
 Decomposition and abstraction through functions; into to recursion
 
 We have   Turring Complete
