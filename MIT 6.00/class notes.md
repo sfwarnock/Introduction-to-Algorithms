@@ -76,3 +76,10 @@ Farmyard Problem
   Pairs(0) = 1
   Pairs(1) = 1
   Pairs(n) = pairs(n-1) + pairs(n-2)
+  
+  Lecture 5 | MIT 6.00 Intro to CS
+  Floating point numbers, successive refinement, finding roots.
+  
+  Numbers
+  int = whole numbers
+  arbitrary precision
