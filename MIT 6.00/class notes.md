@@ -1,4 +1,4 @@
-##Lecture 3 | MIT 6.00 Into to CS
+## Lecture 3 | MIT 6.00 Into to CS
 
 - Data            Operations            Commands
 Num             +, *                  Assignment
@@ -22,7 +22,7 @@ Branch testing
 
 - Flow charts for program design
 
-##Lecture 4 | MIT 6.00 Into to CS
+## Lecture 4 | MIT 6.00 Into to CS
 Decomposition and abstraction through functions; into to recursion
 
 We have   Turring Complete
@@ -77,7 +77,7 @@ Farmyard Problem
   Pairs(1) = 1
   Pairs(n) = pairs(n-1) + pairs(n-2)
   
-##Lecture 5 | MIT 6.00 Intro to CS
+## Lecture 5 | MIT 6.00 Intro to CS
   Floating point numbers, successive refinement, finding roots.
   
   Numbers
