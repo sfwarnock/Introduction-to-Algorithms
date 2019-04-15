@@ -82,4 +82,23 @@ Farmyard Problem
   
   Numbers
   int = whole numbers
-  arbitrary precision
+  arbitrary precision - Long and short int
+  
+  Floating Point - real numbers
+  IEEE Floating point Standard
+  variant of scientific notation
+  mantissa (significant) - exponent
+  1 <= Mantissa <+ 2
+ Exponent -1022 : 1023
+ 64 Bits
+  1 bit sign
+  11 exponenet
+  52 for mantissa
+  17 decimal digits of percision
+
+1/8 = 0.125
+Base 10: 1.25 x 10 ^-1
+Base 2: 1.0 x 2 ^-3 (.001)
+
+1/10: 1 x 10^-1
+Base 2: Approximation, no finite number
