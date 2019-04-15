@@ -102,3 +102,19 @@ Base 2: 1.0 x 2 ^-3 (.001)
 
 1/10: 1 x 10^-1
 Base 2: Approximation, no finite number
+
+Worry about == on floats (never use as a test of equality)
+abs(a * a - 2.0) < epsilon
+
+Square roots
+Might not be an exact answer
+can't enumerate all guesses
+  reals are uncountable
+Guess, check and improve
+
+Successive approximation
+Guess = initial guess
+for iter in range(100):
+  if f(guess) close enough: return guess
+  else: guess = better guess
+Error
