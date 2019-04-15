@@ -118,3 +118,7 @@ for iter in range(100):
   if f(guess) close enough: return guess
   else: guess = better guess
 Error
+
+Bisection method
+  Liner arrangement of answers
+  start in middle, is answer to left or right of current position
