@@ -11,7 +11,7 @@ def squareRootBi(x, epsilon):
     assert x >= 0, 'x must be non-negative, not' + str(x)
     assert epsilon > 0, 'epsilon must be positive, not' + str(epsilon)
     low = 0
-    high = x
+    high = max(x, 1.0)
     guess = (low + high) / 2.0
     ctr = 1
     while abs(guess**2 - x) > epsilon and ctr <= 100:
