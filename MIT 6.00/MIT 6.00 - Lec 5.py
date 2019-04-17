@@ -44,4 +44,4 @@ def squareRootBi(x, epsilon):
     print ('Bi method. Num. interations:', ctr, 'Estimate:', guess)
     return guess
 
-squareRootBi(4, 4)
+squareRootBi(1000, 0.0001)
