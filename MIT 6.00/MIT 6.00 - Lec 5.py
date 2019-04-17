@@ -43,3 +43,5 @@ def squareRootBi(x, epsilon):
     assert ctr <= 100, 'Iteration count exceeded'
     print ('Bi method. Num. interations:', ctr, 'Estimate:', guess)
     return guess
+
+squareRootBi(4, 4)
