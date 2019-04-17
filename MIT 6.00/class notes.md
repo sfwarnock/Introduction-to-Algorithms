@@ -128,3 +128,16 @@ Bisection method
 
 Create fucntion for test cases
 Regression Testing - Trying to make sure a program has not regressed
+
+Speed of convergence
+sqrt(x)
+f(guess) = guess^2 - x
+f(guess) = 0
+
+dy/dx
+f'(guessi) = 2 * 
+guessi + 1 = guesei - f(guessi)/2guessi
+
+Example:
+f(3) = 9 - 16 = -7
+guessi+1 = 3 - (-7/6) = 4.166
