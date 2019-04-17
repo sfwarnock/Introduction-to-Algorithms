@@ -6,7 +6,7 @@ Created on Mon Apr 15 06:13:36 2019
 """
 
 def squareRootBi(x, epsilon):
-    """Assumes x >= 0 and epsilon = 0
+    """Assumes x >= 0 and epsilon > 0
         Return y s.t. y*y is within epsilion of x"""
     assert x >= 0, 'x must be non-negative, not' + str(x)
     assert epsilon > 0, 'epsilon must be positive, not' + str(epsilon)
@@ -15,7 +15,7 @@ def squareRootBi(x, epsilon):
     guess = (low + high) / 2.0
     ctr = 1
     while abs(guess**2 - x) > epsilon and ctr <= 100:
-        print('low:', low, 'high:', high, 'guess:', guess)
+        #print('low:', low, 'high:', high, 'guess:', guess)
         if guess**2 < x:
             low = guess
         else:
@@ -26,4 +26,14 @@ def squareRootBi(x, epsilon):
     print ('Bi method. Num. interations:', ctr, 'Estimate:', guess)
     return guess
 
-squareRootBi(1000, 0.0001)
+def testBi():
+    print('Squareroot(4, 0.001)')
+    squareRootBi(4, 0.001)
+    print('Squareroot(9, 0.001)')
+    squareRootBi(9, 0.001)
+    print('Squareroot(2, 0.001)')
+    squareRootBi(2, 0.001)
+    print('Squareroot(.25, 0.001)')
+    squareRootBi(.25, 0.001)
+    
+testBi()
