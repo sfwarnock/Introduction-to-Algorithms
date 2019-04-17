@@ -122,3 +122,9 @@ Error
 Bisection method
   Liner arrangement of answers
   start in middle, is answer to left or right of current position
+  
+## Lecture 6 | MIT 6.00 Intro to CS
+  Bisection methods, Newton/Raplhson, introduction to lists
+
+Create fucntion for test cases
+Regression Testing - Trying to make sure a program has not regressed
