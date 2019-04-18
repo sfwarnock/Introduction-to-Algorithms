@@ -32,8 +32,8 @@ Note:
 """
 
 def rotateArray(a, k):
-    assert if k < 0, 'k steps must be a positive number, not', str(k)
-    assert if k > len(a), 'k steps is greater than the length of the array', len(a)
+    assert k > 0, 'k steps must be a positive number, not' + str(k)
+    assert k < len(a), 'k steps is greater than the length of the array' + len(a)
     i = len(a) - k
     print(i)
 
