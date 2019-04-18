@@ -31,3 +31,10 @@ Note:
     Could you do it in-place with O(1) extra space?
 """
 
+def rotateArray(a, k)
+    assert if k < 0, 'k steps must be a positive number, not', str(k)
+    assert if k > a(len), 'k steps is greater than the length of the array', a(len)
+    
+
+a = [1, 2, 3, 4, 5, 6, 7]
+k = 3
