@@ -35,14 +35,12 @@ def rotateArray(a, k):
     assert k > 0, 'k steps must be a positive number, not' + str(k)
     assert k < len(a), 'k steps is greater than the length of the array' + len(a)
     i = len(a) - k
-    print(i)
     
     j = a[i:]
     print(j)
+    h = a[:i]
+    print(h)
     
-    h = []
-    
-
 a = [1, 2, 3, 4, 5, 6, 7]
 k = 3
 rotateArray(a,k)
