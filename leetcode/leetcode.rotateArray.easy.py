@@ -36,6 +36,8 @@ def rotateArray(a, k):
     assert k < len(a), 'k steps is greater than the length of the array' + len(a)
     i = len(a) - k
     print(i)
+    
+    
 
 a = [1, 2, 3, 4, 5, 6, 7]
 k = 3
