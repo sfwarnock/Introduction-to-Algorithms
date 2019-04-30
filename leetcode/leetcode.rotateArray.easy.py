@@ -39,7 +39,7 @@ def rotateArray(a, k):
     j = a[:i]
     print(j)
     
-    h = a[i + 1]
+    h = a[i + 0]
     print(h)
     
 a = [1, 2, 3, 4, 5, 6, 7]
