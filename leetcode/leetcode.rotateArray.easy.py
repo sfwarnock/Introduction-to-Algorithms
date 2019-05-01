@@ -37,10 +37,8 @@ def rotateArray(a, k):
     i = len(a) - k
     
     j = a[:i]
-    print(j)
     
     h = a[i:]
-    print(h)
     
     l = []
     l[0:k] = h
