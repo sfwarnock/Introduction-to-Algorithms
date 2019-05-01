@@ -39,12 +39,13 @@ def rotateArray(a, k):
     j = a[:i]
     print(j)
     
-    h = a[i + 0]
+    h = a[i:]
     print(h)
     
-    a[0] = h
-    print(a)
-    
+    l = []
+    l.append(h)
+    print(l)
+        
 a = [1, 2, 3, 4, 5, 6, 7]
 k = 3
 rotateArray(a,k)
