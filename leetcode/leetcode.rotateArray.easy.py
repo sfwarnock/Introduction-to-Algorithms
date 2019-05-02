@@ -33,7 +33,7 @@ Note:
 
 def rotateArray(a, k):
     assert k > 0, 'k steps must be a positive number, not' + str(k)
-    assert k < len(a), 'k steps is greater than the length of the array' + len(a)
+    assert k <= len(a), 'k steps is greater than the length of the array' + len(a)
     i = len(a) - k
     
     j = a[:i]
@@ -43,8 +43,8 @@ def rotateArray(a, k):
     l = []
     l[0:k] = h
     l[k:] = j
-    return l
+    print(l)
         
 a = [1, 2, 3, 4, 5, 6, 7]
-k = 3
+k = 7
 rotateArray(a,k)
