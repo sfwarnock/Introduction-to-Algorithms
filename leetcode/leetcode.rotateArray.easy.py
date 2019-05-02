@@ -40,6 +40,9 @@ def rotateArray(a, k):
     l = []
     
     if k == len(a):
+        for num in range(len(a) -1, 0, -1):
+            l.append(num)
+        print(l)
     else:    
         l[0:k] = h
         l[k:] = j
