@@ -17,3 +17,10 @@ Example:
 Input: "Hello World"
 Output: 5
 """
+
+
+def lastWordCount(x):
+    
+
+    
+x = "Please count the last word"
