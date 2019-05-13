@@ -22,11 +22,8 @@ Output: 5
 def lastWordCount(x):
     c = 0
     for words in x:
-        words = words.split()[-1]
-        print(words)
-        for letter in words:
-            c += 1
+        c += 1
     print(c)
         
-x = 'Please count the last word'
+x = 'last word'
 lastWordCount(x)       
