@@ -20,11 +20,13 @@ Output: 5
 
 
 def lastWordCount(x):
+    assert len(x) > 1, 'Length of string too short to contain "last word"'
+    
     c = 0
-    word = x.split(" ")
-    for letters in word[-1]:
+    words = x.split(" ")
+    for letters in words[-1]:
         c += 1
-    print(c)
+    return c
         
-x = "find the last word"
+x = "count the last word of the sentence"
 lastWordCount(x)       
