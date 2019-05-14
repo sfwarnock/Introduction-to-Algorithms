@@ -21,10 +21,12 @@ Output: 5
 
 def lastWordCount(x):
     c = 0
-    for words in x:
-        for letters in words:
-            c += 1
+    words = x.split(" ")
+    print(words)
+    lastWord = words[-1]
+    for letters in lastWord:
+        c += 1
     print(c)
         
-x = "last word"
+x = "find the last word"
 lastWordCount(x)       
