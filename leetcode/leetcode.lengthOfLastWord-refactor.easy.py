@@ -21,10 +21,8 @@ Output: 5
 
 def lastWordCount(x):
     c = 0
-    words = x.split(" ")
-    print(words)
-    lastWord = words[-1]
-    for letters in lastWord:
+    word = x.split(" ")
+    for letters in word[-1]:
         c += 1
     print(c)
         
