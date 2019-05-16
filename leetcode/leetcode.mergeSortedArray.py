@@ -26,12 +26,15 @@ Output: [1,2,2,3,5,6]
 def mergeSort(a1, a2):  
     #sort each array
     for index in range(len(a1)):
-        arrayIndex = index
-        print(arrayIndex)
+        
+        subArray = index
+        position = subArray
+    
+        print(position)
     
     #merge a2 into a1
         
 a1 = [9, 1, 3, 7, 5]
 a2 = [4, 2, 10, 6, 8]
 
-mergeSort(a1, a2)
+mergeSort(a1, a2)   
