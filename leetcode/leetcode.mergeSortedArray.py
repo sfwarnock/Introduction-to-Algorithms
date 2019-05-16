@@ -26,7 +26,8 @@ Output: [1,2,2,3,5,6]
 def mergeSort(a1, a2):  
     #sort each array
     for index in range(len(a1)):
-        print(a1[index])
+        arrayIndex = index
+        print(arrayIndex)
     
     #merge a2 into a1
         
