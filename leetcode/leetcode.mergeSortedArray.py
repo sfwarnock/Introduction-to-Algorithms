@@ -27,14 +27,14 @@ def mergeSort(a1, a2):
     #sort each array
     for index in range(len(a1)):
     
-        subArray = a1[index]
+        subArray1 = a1[index]
         position = index
         
-        while position > 0 and a1[position - 1] > subArray:
+        while position > 0 and a1[position - 1] > subArray1:
             a1[position] = a1[position - 1]
             position = position - 1
     
-        a1[position] = subArray
+        a1[position] = subArray1
 
     
     #merge a2 into a1
