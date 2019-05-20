@@ -54,8 +54,10 @@ def mergeSort(a1, a2):
     k = a2[k]
     for number in a2:
         if k > j:
-            j.append(k)
-    
+            a1.append(k)
+        else:
+            j += 1
+            
 a1 = [9, 1, 3, 7, 5]
 a2 = [4, 2, 10, 6, 8]
 
