@@ -24,39 +24,8 @@ Output: [1,2,2,3,5,6]
 """
 
 def mergeSort(a1, a2):  
-    #sort each array
-    for index in range(len(a1)):
-    
-        subArray1 = a1[index]
-        position = index
-        
-        while position > 0 and a1[position - 1] > subArray1:
-            a1[position] = a1[position - 1]
-            position = position - 1
-    
-        a1[position] = subArray1
-    
-    for index in range(len(a2)):
-    
-        subArray2 = a2[index]
-        position = index
-        
-        while position > 0 and a2[position - 1] > subArray2:
-            a2[position] = a2[position - 1]
-            position = position - 1
-    
-        a2[position] = subArray2
-        
-    #merge a2 into a1
-    j = 0
-    k = 0
-    j = a1[j]
-    k = a2[k]
-    for number in a2:
-        if k > j:
-            a1.append(k)
-        else:
-            j += 1
+    a1.sort()
+    a2.sort()
             
 a1 = [9, 1, 3, 7, 5]
 a2 = [4, 2, 10, 6, 8]
