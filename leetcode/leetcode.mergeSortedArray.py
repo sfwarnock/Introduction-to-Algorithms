@@ -24,11 +24,12 @@ Output: [1,2,2,3,5,6]
 """
 
 def mergeSort(a1, a2):  
-    a1.sort()
-    a2.sort()
-            
+    for digit in a2:
+        a1.append(digit)
+        a1.sort()
+        
 a1 = [9, 1, 3, 7, 5]
 a2 = [4, 2, 10, 6, 8]
 
 mergeSort(a1, a2)
-print(a1, a2)
+print(a1)
