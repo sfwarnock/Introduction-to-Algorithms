@@ -25,16 +25,22 @@ Output: [1,2,2,3,5,6]
 
 def mergeSort(a1, a2):  
     #sort each array
+    print(a1)
     for index in range(len(a1)):
     
         subArray1 = a1[index]
         position = index
-        
+        print('subArray1 = ',subArray1, 'position = ', position, )
+
         while position > 0 and a1[position - 1] > subArray1:
+            print('a1[position-1]', a1[position-1], '>', subArray1, 'subArray1')
             a1[position] = a1[position - 1]
             position = position - 1
     
         a1[position] = subArray1
+        print(a1[position], 'a1[position], loop complete')
+        print(a1)
+        print(' ')
     
     for index in range(len(a2)):
     
