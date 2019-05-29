@@ -54,7 +54,8 @@ def mergeSort(a1, a2):
         a2[position] = subArray2
         
     #merge a2 into a1
-
+    for number in a2:
+        
             
 a1 = [9, 1, 3, 7, 5]
 a2 = [4, 2, 10, 6, 8]
