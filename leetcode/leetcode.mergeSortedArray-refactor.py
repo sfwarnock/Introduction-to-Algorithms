@@ -57,10 +57,10 @@ def mergeSort(a1, a2):
     for number in a2:
         if number not in a1:
             a1.append(number)
+            a1.sort()
     print(a1)
             
 a1 = [9, 1, 3, 7, 5]
 a2 = [4, 2, 10, 6, 8]
 
 mergeSort(a1, a2)
-print(a1, a2)
