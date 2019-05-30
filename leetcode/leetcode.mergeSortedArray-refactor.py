@@ -42,19 +42,13 @@ def mergeSort(a1, a2):
         print(a1)
         print(' ')
     
-    for index in range(len(a2)):
-    
-        subArray2 = a2[index]
-        position = index
-        
-        while position > 0 and a1[position - 1] > subArray2:
-            a1[position] = a1[position - 1]
-            position = position - 1
-    
-        a1[position] = subArray2
-    
+    num1 = a1[0]
+    for num2 in a2:
+        if num2 > num1 in a1:
+            position += 1
+        else:
+            a1.append(num2)
     print(a1)
-        
             
 a1 = [9, 1, 3, 7, 5]
 a2 = [4, 2, 10, 6, 8]
