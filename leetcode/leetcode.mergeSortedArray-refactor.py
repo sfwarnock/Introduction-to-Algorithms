@@ -44,11 +44,11 @@ def mergeSort(a1, a2):
     
     x = a1[0]
     for num2 in a2:
-        for num1 in range(len(a1)):
-            if num2 > num1:
-                a1.append(num2)
-            else:
-                x += 1
+        if num2 > a1[x] in a1:
+            a1.append(num2)
+            print(a1)
+        else:
+            x += 1
     print(a1)
             
 a1 = [9, 1, 3, 7, 5]
