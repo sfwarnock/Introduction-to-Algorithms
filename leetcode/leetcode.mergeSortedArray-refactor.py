@@ -49,9 +49,6 @@ def mergeSort(a1, a2):
         if num2 > num1:
             print(num2)
             a1.insert(x, num2)
-            x += 1
-        else:
-            num2 += 1
     print(a1)
             
 a1 = [9, 1, 3, 7, 5]
