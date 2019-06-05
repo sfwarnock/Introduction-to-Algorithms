@@ -43,7 +43,17 @@ def mergeSort(a1, a2):
         print(' ')
 
     #merge a2 into a1
+    x = 0
+    y = a1[0]
+    num2 = a2[x]
     # for digit in a2:
+    for num1 in a1:
+        if num2 > num1:
+            a1.insert(y, num2)
+            num2 += 1
+        else:
+            y += 1
+    print(a1)
         # if digit > a1[digit]
             # insert digit into a1[digit + 1]
         # else
