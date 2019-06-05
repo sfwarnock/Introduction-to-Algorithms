@@ -42,22 +42,19 @@ def mergeSort(a1, a2):
         print(a1)
         print(' ')
 
-    #merge a2 into a1
+    
     x = 0
-    y = a1[0]
+    num1 = a1[x]
+    print(num1)
+    
     num2 = a2[x]
-    # for digit in a2:
-    for num1 in a1:
-        if num2 > num1:
-            a1.insert(y, num2)
-            num2 += 1
-        else:
-            y += 1
-    print(a1)
-        # if digit > a1[digit]
-            # insert digit into a1[digit + 1]
-        # else
-            # a1[digit] + 1
+    print(num2)
+    
+    if num1 > num2:
+        print('True')
+    else:
+        print('False')
+        x += 1
             
 a1 = [9, 1, 3, 7, 5]
 a2 = [4, 2, 10, 6, 8]
