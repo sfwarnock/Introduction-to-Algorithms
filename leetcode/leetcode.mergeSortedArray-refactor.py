@@ -59,6 +59,7 @@ def mergeSort(a1, a2):
         else:
             print(num1, 'is less than', num2)
             x += 1
+        y += 1
     print(a1)
         
 a1 = [9, 1, 3, 7, 5]
