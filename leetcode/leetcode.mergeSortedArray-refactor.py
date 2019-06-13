@@ -42,12 +42,8 @@ def mergeSort(a1, a2):
         print(a1)
         print(' ')
 
-    
-    x = 0
-    y = 0
-    num1 = a1[x]
-    print(num1)
-    
+    x, y = 0, 0 
+    x = a1[x]
     num2 = a2[y]
     print(num2)
     
@@ -58,7 +54,6 @@ def mergeSort(a1, a2):
             break
         else:
             print(num1, 'is less than', num2)
-            x += 1
         y += 1
     print(a1)
         
