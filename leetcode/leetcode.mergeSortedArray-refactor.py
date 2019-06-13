@@ -43,19 +43,20 @@ def mergeSort(a1, a2):
         print(' ')
 
     x, y = 0, 0 
-    x = a1[x]
     num2 = a2[y]
-    print(num2)
+    num1 = a1[x]
     
-    for num1 in a1:
+    while True:
         if num1 > num2:
             print(num1, 'is greater than', num2)
             a1.insert(x, num2)
             break
+            x += 1
         else:
             print(num1, 'is less than', num2)
+            break
         y += 1
-    print(a1)
+    print(a1, x)
         
 a1 = [9, 1, 3, 7, 5]
 a2 = [4, 2, 10, 6, 8]
