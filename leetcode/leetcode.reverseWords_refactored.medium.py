@@ -27,9 +27,7 @@ Explanation: You need to reduce multiple spaces between two words to a single sp
 
 def reverseWords(s):
     
-    for word in s:
-        t = s.split()
-        t = t[::-1]
+    t = s.split(' ')
     print(t)
     
 s = "reverse this string"
