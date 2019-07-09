@@ -28,10 +28,13 @@ Explanation: You need to reduce multiple spaces between two words to a single sp
 def reverseWords(s):
     word = 0
     
+    i = len(s)
+    print(i)
+    
     for words in s:
-        if words not ' ':
+        if words != ' ':
             word += 1
-        print(word)
+    print(word)
         
 s = "reverse this string"
 reverseWords(s)
