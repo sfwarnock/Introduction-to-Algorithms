@@ -17,13 +17,14 @@ squaresSingleLine = [num*num for num in range(6)]
 print(squaresSingleLine)
 
 #List Comprehensions
-#Loop
+    #Loop
 even_Squares = []
 for num in range(11):
     if num % 2 == 0:
         even_Squares.append(num * num)
 print(even_Squares)
 
-#Comprehension
+    #Comprehension
 odd_Squares = [num * num for num in range(11) if num % 2 != 0]
 print(odd_Squares)
+
