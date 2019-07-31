@@ -31,3 +31,7 @@ print(odd_Squares)
 #More Examples
 pythagoreanTriplet = [(a, b, c) for a in range(1,30) for b in range(1,30) for c in range(1,30) if a**2 + b**2 == c**2]
 print(pythagoreanTriplet)
+
+colors = ["pink", "white", "blue", "black", "purple"]
+color = [color.upper() for color in colors]
+print(color)
