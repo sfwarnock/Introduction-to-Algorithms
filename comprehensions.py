@@ -28,3 +28,6 @@ print(even_Squares)
 odd_Squares = [num * num for num in range(11) if num % 2 != 0]
 print(odd_Squares)
 
+#More Examples
+pythagoreanTriplet = [(a, b, c) for a in range(1,30) for b in range(1,30) for c in range(1,30) if a**2 + b**2 == c**2]
+print(pythagoreanTriplet)
