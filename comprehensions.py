@@ -35,3 +35,7 @@ print(pythagoreanTriplet)
 colors = ["pink", "white", "blue", "black", "purple"]
 color = [color.upper() for color in colors]
 print(color)
+
+heightInCMS = [('Carlos', 183), ('Lisa', 171), ('Lucia', 179), ('Wes', 165)]
+heightInFeet = [(height[0], round(height[1] * 0.0328, 1)) for height in heightInCMS]
+print(heightInFeet)
