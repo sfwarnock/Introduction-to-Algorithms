@@ -43,3 +43,8 @@ print(heightInFeet)
 # Nested List Comprehensions[[]]
 matrix = [[j * j+i for j in range(3)] for i in range(3)]
 print(matrix)
+
+# Set comprehensions {}
+names = ['LUCIA', 'Wes', 'Addie', 'kendall', 'RapLh']
+name = {name.capitalize() for name in names if len(name) > 1}
+print(name)
