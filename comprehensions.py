@@ -48,3 +48,8 @@ print(matrix)
 names = ['LUCIA', 'Wes', 'Addie', 'kendall', 'RapLh']
 name = {name.capitalize() for name in names if len(name) > 1}
 print(name)
+
+#Dictionary Comprehensions {}
+char_dict = {'A': 4, 'z': 2, 'D': 8, 'a': 5, 'Z' : 10}
+letter_Count = {k.lower() :char_dict.get(k.lower(), 0) + char_dict.get(k.upper(),0) for k in char_dict.keys()}
+print(letter_Count)
