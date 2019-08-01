@@ -41,3 +41,5 @@ heightInFeet = [(height[0], round(height[1] * 0.0328, 1)) for height in heightIn
 print(heightInFeet)
 
 # Nested List Comprehensions[[]]
+matrix = [[j * j+i for j in range(3)] for i in range(3)]
+print(matrix)
