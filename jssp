@@ -18,7 +18,15 @@ w = weight
 
 i, n = index, number
 
+Job Characteristics
 a (alpha)= machine enviroment
+
 b (beta) = job characterisitcs
+b1 = preemption (job spliting allowed)
+    b1 = pmtn if allowed
+    b1 != present if not allowed
+
+    b2 = precidence relationships
+
 g (gamma) = optimality criterion
 
