@@ -7,6 +7,18 @@ Created on Mon Sep  9 06:39:48 2019
 """
 
 """
-Ji = job
-Oi = operation
-Pi = process time
+j = job
+o = operation
+p = process time
+m = machine 
+r = release date
+f(t) = cost function
+d = due date
+w = weight
+
+i, n = index, number
+
+a (alpha)= machine enviroment
+b (beta) = job characterisitcs
+g (gamma) = optimality criterion
+
