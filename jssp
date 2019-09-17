@@ -7,6 +7,7 @@ Created on Mon Sep  9 06:39:48 2019
 """
 
 """
+JOB DATA
 j = job
 o = operation
 p = process time
@@ -18,8 +19,20 @@ w = weight
 
 i, n = index, number
 
-Job Characteristics
+
+JOB CHARACTERISITICS
 a (alpha)= machine enviroment
+    o if a job must on dedicated system
+    P if P there are identical parallel machines
+    Q if Q there are uniform parallel machines 
+
+
+
+
+
+
+
+
 
 b (beta) = job characterisitcs
 b1 = preemption (job spliting allowed)
@@ -29,4 +42,3 @@ b1 = preemption (job spliting allowed)
     b2 = precidence relationships
 
 g (gamma) = optimality criterion
-
