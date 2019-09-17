@@ -25,13 +25,13 @@ a (alpha)= machine enviroment
     o if a job must on dedicated system
     P if P there are identical parallel machines
     Q if Q there are uniform parallel machines 
-
-
-
-
-
-
-
+    R if R unrelated parallel machines
+    PMPM or QMPM multipurpose machines with indentical and uniform speeds
+    G multi-operational model, general shop
+    X multi-operational model, mix of job shop and open shop
+    O multi-operational model, open shop
+    J multi-operational model, job shop
+    F multi-operational model, flow shop
 
 
 b (beta) = job characterisitcs
