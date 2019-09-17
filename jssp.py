@@ -42,3 +42,11 @@ b1 = preemption (job spliting allowed)
     b2 = precidence relationships
 
 g (gamma) = optimality criterion
+    C finishing time
+    f(Ci) cost
+    L Ci-di lateness
+    E max(0, di-Ci) earliness
+    Ti max(0, Ci - di) tardiness
+    D |Ci - di| absolute deviation
+    S (Ci - di)^s
+    U 0 if Ci <= di, otherwise 1
