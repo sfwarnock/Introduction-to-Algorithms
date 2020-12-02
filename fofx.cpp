@@ -19,7 +19,7 @@ int f(int x){ // subroutine
 int main() { // main driver
     int x;
     
-    cout << "Enter value for f(x)" << endl;
+    cout << "Enter an x value for f(x)" << endl;
     cin >> x;
     
     cout << "f(" << x << ") = " << f(x) << endl;
