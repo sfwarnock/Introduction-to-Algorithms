@@ -7,6 +7,7 @@
 //
 
 #include <iostream>
+#include "slope.h"
 using namespace std;
 
 int f(int x){ // subroutine
@@ -16,14 +17,6 @@ int f(int x){ // subroutine
         return 2 * f(x-1) + x * x; // recurssive f(x)
 }
 
-
-int m(int y, int x){ //subroutine
-    int b = y;
-    
-    return b + x;
-}
-
- 
 int main() { // main driver
     int x;
     int y;
