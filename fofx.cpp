@@ -16,13 +16,13 @@ int f(int x){ // subroutine
         return 2 * f(x-1) + x * x; // recurssive f(x)
 }
 
-/*
-int m(int y){ //subroutine
-    y = 2;
+
+int m(int y, int x){ //subroutine
+    int b = y;
     
-    return y + f(x);
+    return b + x;
 }
-*/
+
  
 int main() { // main driver
     int x;
@@ -35,7 +35,7 @@ int main() { // main driver
     
     y = f(x);
     
-    cout << "The x, y coordinates of f(" << x << ") are: (" << x << "," << y << ")" << endl;
+    cout << "The x, y coordinates of f(" << x << ") are: (" << x << "," << m(y, x) << ")" << endl;
     
     return 0;
 }
