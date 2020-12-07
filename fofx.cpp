@@ -21,6 +21,8 @@ int main() { // main driver
     int x;
     int y;
     
+    slope m_object;
+    
     cout << "Enter an x value for f(x)" << endl;
     cin >> x;
     
@@ -28,7 +30,7 @@ int main() { // main driver
     
     y = f(x);
     
-    cout << "The x, y coordinates of f(" << x << ") are: (" << x << "," << m(y, x) << ")" << endl;
+    cout << "The x, y coordinates of f(" << x << ") are: (" << x << "," << m_object.m(y,x) << ")" << endl;
     
     return 0;
 }

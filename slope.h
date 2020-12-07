@@ -9,10 +9,14 @@
 #ifndef slope_h
 #define slope_h
 
-int m(int y, int x){ //subroutine
-    int b = y;
-    
-    return x + y/b ^ -2;
-}
+
+class slope
+{
+    public:
+        int m(int y, int x){ //subroutine
+            int b = y;
+            
+            return x + y/b ^ -2;}
+};
 
 #endif /* slope_h */
