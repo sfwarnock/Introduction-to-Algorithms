@@ -30,7 +30,9 @@ int main() { // main driver
     
     y = f(x);
     
-    cout << "The x, y coordinates of f(" << x << ") are: (" << x << "," << m_object.m(y,x) << ")" << endl;
+    cout << "The x, y coordinates of f(" << x << ") are: (" << x << "," << y << ")" << endl;
+    
+    cout << "The slope of the line at (" << x << "," << y << ") is: " << m_object.m(y,x) << endl;
     
     return 0;
 }

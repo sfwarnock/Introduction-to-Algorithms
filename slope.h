@@ -13,10 +13,25 @@
 class slope
 {
     public:
-        int m(int y, int x){ //subroutine
-            int b = y;
-            
-            return x + y/b ^ -2;}
+        int
+        intSlope(){
+            slopeValue = 0;
+        }
+    
+        intSlope(int y, int x){ //subroutine
+            slopeValue =  x + y/y ^ -2; // return slope of line at (x,y)
+        }
+        
+        int read(){
+            return slopeValue;
+        }
+        
+        void write (int m){
+            slopeValue = m;
+        }
+        
+    private:
+        int slopeValue;
 };
 
 #endif /* slope_h */
