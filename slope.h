@@ -9,17 +9,20 @@
 #ifndef slope_h
 #define slope_h
 
-
-class slope
+class intSlope
 {
     public:
-        int
+        int getSlope(int x, int y){
+            return x + y/y ^ -2;
+        }
+    /*
+    
         intSlope(){
             slopeValue = 0;
         }
     
         intSlope(int y, int x){ //subroutine
-            slopeValue =  x + y/y ^ -2; // return slope of line at (x,y)
+            slopeValue = x + y/y ^ -2; // return slope of line at (x,y)
         }
         
         int read(){
@@ -32,6 +35,7 @@ class slope
         
     private:
         int slopeValue;
+     */
 };
 
 #endif /* slope_h */
