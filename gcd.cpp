@@ -9,7 +9,6 @@
 #include <iostream>
 using namespace std;
 
-
 int gcd(int u, int v){
     int t;
     while (u > 0){
@@ -23,11 +22,10 @@ int gcd(int u, int v){
 
 int main(){
     int x; int y;
-    x = 178468;
-    y = 267702;
+    x = 461952;
+    y = 116298;
     
-    while (
-        if ( x > 0 && y > 0){
-            cout << x << '\n'<< y << '\n' << gcd(x,y) << endl;
+    if ( x > 0 && y > 0){
+        cout << x << '\n'<< y << '\n' << gcd(x,y) << endl;
     }
 }
